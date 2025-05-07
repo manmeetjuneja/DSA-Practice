@@ -19,9 +19,11 @@ public class SecondSmallest_SecondLargest {
             System.out.println("Second Largest : " + arr[size - 2]);
         }
     }
+//    Time Complexity: O(NlogN), For sorting the array
+//    Space Complexity: O(1)
 
     public static void recursiveApproach() {
-
+        // we will try to find the array in single traversal 
     }
 
     public static void betterApproach() {
