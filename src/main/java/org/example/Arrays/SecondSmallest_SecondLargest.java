@@ -22,12 +22,16 @@ public class SecondSmallest_SecondLargest {
 //    Time Complexity: O(NlogN), For sorting the array
 //    Space Complexity: O(1)
 
-    public static void recursiveApproach() {
-        // we will try to find the array in single traversal 
+    public static void recursiveApproach(int[] arr) {
+        // we will try to find the array in single traversal
     }
 
-    public static void betterApproach() {
-
+    public static void betterApproach(int[] arr) {
+        int size = arr.length;
+        if (size == 0 || size == 1) {
+            System.out.println("-1");
+        } else {
+        }
     }
 
     public static void optimalApproach() {
